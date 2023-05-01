@@ -1,0 +1,2 @@
+terraform init -backend-config="bucket=tnbucket1337" -backend-config="key=terraform.tfstate" -backend-config="region=us-east-1" -provider="aws"
+terraform init -backend-config="./backend.conf"
